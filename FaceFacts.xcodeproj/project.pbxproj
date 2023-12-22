@@ -11,6 +11,12 @@
 		F41624AA2B35F99A00A40EDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624A92B35F99A00A40EDE /* ContentView.swift */; };
 		F41624AC2B35F99B00A40EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41624AB2B35F99B00A40EDE /* Assets.xcassets */; };
 		F41624AF2B35F99B00A40EDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41624AE2B35F99B00A40EDE /* Preview Assets.xcassets */; };
+		F41624B62B35FA0100A40EDE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624B52B35FA0100A40EDE /* Person.swift */; };
+		F41624B82B35FCCC00A40EDE /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624B72B35FCCC00A40EDE /* EditPersonView.swift */; };
+		F41624BA2B3602F500A40EDE /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624B92B3602F500A40EDE /* PeopleView.swift */; };
+		F41624BC2B36090400A40EDE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624BB2B36090400A40EDE /* Event.swift */; };
+		F41624BE2B360A6000A40EDE /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624BD2B360A6000A40EDE /* EditEventView.swift */; };
+		F41624C02B360F4000A40EDE /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41624BF2B360F4000A40EDE /* Previewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,14 @@
 		F41624A92B35F99A00A40EDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F41624AB2B35F99B00A40EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41624AE2B35F99B00A40EDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F41624B52B35FA0100A40EDE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F41624B72B35FCCC00A40EDE /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		F41624B92B3602F500A40EDE /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		F41624BB2B36090400A40EDE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F41624BD2B360A6000A40EDE /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		F41624BF2B360F4000A40EDE /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
+		F41624C12B36148300A40EDE /* FaceFacts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FaceFacts.entitlements; sourceTree = "<group>"; };
+		F41624C22B3614D000A40EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,16 @@
 		F41624A62B35F99A00A40EDE /* FaceFacts */ = {
 			isa = PBXGroup;
 			children = (
+				F41624C22B3614D000A40EDE /* Info.plist */,
+				F41624C12B36148300A40EDE /* FaceFacts.entitlements */,
 				F41624A72B35F99A00A40EDE /* FaceFactsApp.swift */,
 				F41624A92B35F99A00A40EDE /* ContentView.swift */,
+				F41624B92B3602F500A40EDE /* PeopleView.swift */,
+				F41624B72B35FCCC00A40EDE /* EditPersonView.swift */,
+				F41624BD2B360A6000A40EDE /* EditEventView.swift */,
+				F41624B52B35FA0100A40EDE /* Person.swift */,
+				F41624BB2B36090400A40EDE /* Event.swift */,
+				F41624BF2B360F4000A40EDE /* Previewer.swift */,
 				F41624AB2B35F99B00A40EDE /* Assets.xcassets */,
 				F41624AD2B35F99B00A40EDE /* Preview Content */,
 			);
@@ -137,8 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41624B62B35FA0100A40EDE /* Person.swift in Sources */,
+				F41624BA2B3602F500A40EDE /* PeopleView.swift in Sources */,
 				F41624AA2B35F99A00A40EDE /* ContentView.swift in Sources */,
+				F41624C02B360F4000A40EDE /* Previewer.swift in Sources */,
 				F41624A82B35F99A00A40EDE /* FaceFactsApp.swift in Sources */,
+				F41624BC2B36090400A40EDE /* Event.swift in Sources */,
+				F41624B82B35FCCC00A40EDE /* EditPersonView.swift in Sources */,
+				F41624BE2B360A6000A40EDE /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +297,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FaceFacts/FaceFacts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceFacts/Preview Content\"";
 				DEVELOPMENT_TEAM = DJAHJZFYK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +328,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FaceFacts/FaceFacts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceFacts/Preview Content\"";
 				DEVELOPMENT_TEAM = DJAHJZFYK7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
